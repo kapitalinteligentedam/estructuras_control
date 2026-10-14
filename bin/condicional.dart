@@ -2,6 +2,6 @@
  y le responda si ha suspendido, ha sacado un suficiente,
  un bien, un notable o un sobresaliente */
 
- main(){
-    
+ void main(){
+
  }
