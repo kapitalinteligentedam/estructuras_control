@@ -8,7 +8,7 @@ void main(){
     stdout.writeln("Intriduce tu nota del examen");
     String respuesta = stdin.readLineSync() ?? "e";
     double nota = double.tryParse(respuesta) ?? -1;
-    if(nota < 0){
+    if(nota < 0 || nota > 10){
         stdout.writeln("No has introducido una nota válida");
     } else if(nota < 5){
         stdout.writeln("Has suspendido");
